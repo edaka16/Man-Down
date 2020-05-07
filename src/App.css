@@ -1,5 +1,5 @@
 .App {
-  text-align: center;
+  /* text-align: center; */
 }
 
 .App-logo {
@@ -35,4 +35,296 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.background{
+  margin: auto;
+  background-image: url("./Images/bacground.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  min-height: 100vh;
+}
+
+
+.logo{
+  padding-top: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 250px;
+}
+.container i{
+  margin-left: 10px;
+}
+.login-with{
+  margin-top: 5px;
+  font-size: 16px;
+  font-family: "Roboto";
+  color: rgb(33, 33, 33);
+  line-height: 3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.forget-login{
+  margin-top: 15px;
+}
+.login{
+  float: right;
+  background-color: rgb(29, 29, 27);
+}
+.btn-primary {
+  color: #fff;
+  border-color: transparent;
+}
+label + .MuiInput-formControl {
+  margin-top: 10px;
+}
+.start{
+  margin: 60px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: 'center';
+}
+
+.forget-passw {
+  font-size: 16px;
+  font-family: "Roboto";
+  color: rgb(69, 68, 68);
+  line-height: 3;
+  margin-left: 5px;
+  margin-bottom: 5px;
+  margin-top: -7px;
+}
+
+.navbar-collapse {
+   background-color: rgb(243, 123, 32);   
+   color: white;
+}
+
+.mr-auto{
+  padding-left: 0;
+  min-height: 100vh;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .navbar-collapse {
+      position: absolute;
+      left: 0;
+      padding-left: 15px;
+      padding-right: 15px;
+      padding-bottom: 15px;
+      width: 100%;
+  }
+  .navbar-collapse.collapsing {
+      height: auto;
+      width: 50%;
+      -webkit-transition: left 0.1s ease;
+      -o-transition: left 0.1s ease;
+      -moz-transition: left 0.1s ease;
+      transition: left 0.1s ease;
+      left: -100%;
+  }
+  .navbar-collapse.show {
+      background-color: white;
+      width: 60%;
+      top: 0;
+      padding-bottom: 10px;
+      -webkit-transition: left 0.3s ease-in;
+      -o-transition: left 0.3s ease-in;
+      -moz-transition: left 0.3s ease-in;
+      transition: left 0.3s ease-in;
+  }
+  
+}
+
+.body{
+  position: relative;
+  margin: auto;
+  background-image: url("./Images/activated-background.png");
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  min-height: 100vh;
+}
+.body2{
+  margin-top: 55px;
+  background-color: rgb(118, 17, 0);
+}
+.alarm-minutes{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  color: white;
+  padding-top: 49px;
+}
+
+.alarm-minutes p{
+  margin-bottom: 0;
+  font-size: 12px;
+  font-family: "Roboto";
+  color: rgb(255, 255, 255);
+  line-height: 1.667;
+}
+.motorbike{
+  position: absolute;
+  right: 15px;
+  width: 40px;
+  height: 25px;
+
+}
+.manual-alarm{
+  margin-top: 10px;
+  border-top: 1px solid white;
+  padding-bottom: 60px;
+}
+
+.makeStyles-content-7 {
+  padding: 24px;
+  flex-grow: 1;
+}
+
+header.MuiAppBar-colorPrimary {
+  color: #fff;
+  box-shadow: none;
+  background-color: transparent;
+}
+header .MuiPaper-elevation4 {
+  box-shadow: none;
+}
+
+ header .PrivateTabIndicator-colorSecondary-132 {
+  background-color: rgb(243, 123, 32);
+}
+
+.MuiFab-secondary:hover {
+    background-color:rgb(243, 123, 32) ;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: calc(1.5em + .75rem + 2px);
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  background-color: transparent;
+  border: none;
+  /* background-clip: padding-box; */
+  border-bottom: 1px solid #ced4da;
+  border-radius: none;
+  transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+img {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+div .save-changes{
+  float: right;
+  right: -10px;
+  top: 20px;
+  color:rgb(243, 123, 32);
+}
+
+
+.MuiTypography-caption {
+    font-size: 12px;
+    font-family: "Roboto";
+    color: rgb(117, 117, 117);
+    line-height: 1.667;
+}
+.text .MuiTypography-body2 {
+    font-family: "Roboto";
+    color: rgb(33, 33, 33);
+    line-height: 1.5;
+    border-bottom: 1px solid rgb(117, 117, 117);
+  
+}
+.text .MuiTypography-h6 {
+  margin-top: 50px;
+  margin-bottom: -10px;
+    font-size: 24px;
+    font-family: "Roboto";
+    color: rgb(33, 33, 33);
+    line-height: 1;
+}
+
+
+.text{
+  padding-left: 7px;
+}
+.other{
+  color: rgba(0, 0, 0, 0.54);
+    padding: 0;
+    font-size: 1rem;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.00938em;
+}
+
+.MuiBox-root .MuiBox-root-319{
+  padding:0;
+}
+header.MuiAppBar-colorDefault {
+  color: rgba(0, 0, 0, 0.87);
+  background-color: white;
+}
+
+.MuiTypography-root .subtitle {
+  font-size: 16px;
+  font-family: "Roboto";
+  color: rgb(33, 33, 33);
+  line-height: 3;
+}
+
+.MuiTypography-root  .MuiGrid-spacing-xs-2 > .MuiGrid-item {
+  padding: 0 8px 4px;
+}
+.MuiTypography-root .MuiPaper-rounded {
+  border-radius: 0;
+}
+.MuiTypography-root .MuiFab-secondary:hover {
+  background-color: rgb(243, 123, 32);
+}
+.MuiTypography-root .MuiFab-root:hover {
+  background-color:rgb(243, 123, 32);
+}
+.MuiTypography-root .driver{ 
+  width: 100vw;
+  margin-left: -24px;
+  margin-top: -24px;
+  /* margin-right: -24px; */
+} 
+ 
+button .MuiButtonBase-root .MuiButton-root .MuiButton-text .makeStyles-alarm-10:{
+  background-color: rgb(243, 123, 32);
+  color: white;
+}
+
+.MuiGrid-root .alarm {
+  background-color:rgb(243, 123, 32);
+  padding: 10px;
+  color:white;
+  float: right;
+}
+.MuiGrid-root .alarm:hover {
+  background-color:rgb(243, 123, 32);
+  color:white;
+}
+
+.form{
+  margin-top: 20px;
 }
